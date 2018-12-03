@@ -107,14 +107,15 @@ end
 
 figure(1);
 hold on;
-subplot(2,1,1);
+% subplot(2,1,1);
 plot(time,mf)
 xlabel("Time (sec)");
 ylabel("Mass flow rate (Kg/s)");
 hold off;
 
+figure(2)
 hold on;
-subplot(2,1,2);
+% subplot(2,1,2);
 plot(time,vel)
 xlabel("Time (sec)");
 ylabel("Our Vehicle Optimized Velocity (m/s)");
@@ -123,3 +124,5 @@ hold off;
 cyc_mph(:,1) = time;
 cyc_mph(:,2) = vel;
 save('cyc_mph.mat','cyc_mph')
+
+% ans = fMPG(4);
