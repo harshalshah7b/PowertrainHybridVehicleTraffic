@@ -12,8 +12,7 @@ Energy-efficient powertrain control of Hybrid Vehicles through traffic jams
 
 - The output file  "cyc_mph.m" will be automatically saved in the ECMS folder. 
 
-- Then from the ECMS folder, we have to run **"fMPG.m"** file which needs cycle number as input. The cycle we got is setted as cycle 4. So, in command window of MATLAB, input "fMPG(4)" command to run this file. 
+- Then from the ECMS folder, we have to run **"fMPG.m"** file which needs cycle number as input. The cycle we got is setted as cycle 4. So, in command window of MATLAB, input "fMPG(4)" command to run this file. This will give us plots for SOC and Fuel Consumption.
 
-This will give us plots for SOC and Fuel Consumption.
 
-We would sincerely like to thank Dr. Yi Ren for his support and guidance throughout the semester and for the vital inputs on the project.
+**We would sincerely like to thank Dr. Yi Ren for his support and guidance throughout the semester and for the vital inputs on the project.**
